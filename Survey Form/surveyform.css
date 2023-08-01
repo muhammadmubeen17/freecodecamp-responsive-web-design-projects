@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(115deg, rgba(41, 152, 255, 0.8), rgba(86, 67, 250, 0.7)),
+        url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1 {
+    margin: 3rem auto 0 auto;
+}
+
+#title {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 32px;
+    display: block;
+    line-height: 1.2;
+    margin: auto;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+    font-size: 1.125rem;
+    margin: 10px auto 25px auto;
+}
+
+#survey-form {
+    max-width: 720px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto 0 auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 40px;
+    display: block;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin: 0 auto 20px auto;
+    display: block;
+    padding: 5px;
+}
+
+.box-size {
+    width: 100%;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color: #495057;
+    font-family: inherit;
+}
+
+.select-box-size {
+    width: 100%;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color: #495057;
+    font-family: inherit;
+}
+
+label {
+    font-family: inherit;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.radio {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.button {
+    background-color: #37af65;
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 5px;
+    color: inherit;
+    font-size: 16px;
+
+}
+
+#textarea {
+    border-radius: 0px !important;
+}
